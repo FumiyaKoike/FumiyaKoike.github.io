@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+/* --------------------------------
+ * For tablet
+ * -------------------------------- */
+
+@media (min-width: 768px) {
+  body {     font-size: 1.3rem;}
+
+
+/* -----------------------------------
+ * HEADER SECTION
+ * -------------------------------- */
+
+.header {        width: 80%; }
+
+.score-section { width: 80%; }
+
+.score-section h1 {
+               padding: 35px 0;
+             font-size: 2.6rem;
+        letter-spacing: 10px;
+}
+
+.score-section img {
+                   top: 120px;
+                 right: 120px;
+                 width: 170px;
+                height: 170px;
+}
+
+.skills-box {
+              position: absolute;
+                  left: 0;
+                 right: 0;
+                 width: 1px;
+           margin-left: 80px;
+}
+
+.skill-bar {
+                margin: 4px;
+               padding: 12px;
+  }
+
+.skill-bar.HTML p,
+.skill-bar.CSS p,
+.skill-bar.JavaScript p,
+.skill-bar.PHP p,
+.skill-bar.Photoshop p,
+.skill-bar.Illustrator p {
+                   top: 6px;
+}
+
+
+.menu.more {
+          position: fixed;
+             right: 25px;
+            bottom: 25px;
+             width: 35px;
+            height: 35px;
+           display: none;
+}
+
+.menu.more .arrow {
+    position: relative;
+    display: block;
+}
+.menu.more .arrow.ar1:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-top: solid 2px pink;
+    border-right: solid 2px black;
+    -ms-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    position: absolute;
+    left:0;
+    right:0;
+    margin:  0 auto;
+}
+.menu.more .arrow.ar2:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-top: solid 2px black;
+    border-right: solid 2px black;
+    -ms-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    position: absolute;
+    left:0;
+    right:0;
+    margin:  8px auto;
+}
+
+
+
+
+
+/* -----------------------------------
+ * SECTION - 共通
+ * -------------------------------- */
+
+.html-section,.css-section,.js-section,
+.php-section,.illustrator-section,.photoshop-section {
+      width: 80%;
+}
+
+/* -----------------------------------
+ * HTML SECTION
+ * -------------------------------- */
+
+
+
+} /* END of @media(min-width: 768px){} */
+
+
+
+
+
+/* --------------------------------
+ * For PC
+ * -------------------------------- */
+
+ @media (min-width: 1024px) {
+
+/* -----------------------------------
+ * HEADER SECTION
+ * -------------------------------- */
+
+.header {   width : 70%;}
+
+
+.score-section {
+             width: 70%;
+            height: 300px;
+}
+
+.score-section h1 {
+                        padding: 40px 0 10px;
+                        font-size: 3.0rem;
+}
+
+.score-section img {
+                   top: 120px;
+                 right: 220px;
+                 width: 170px;
+                height: 170px;
+}
+
+.skills-box {    margin-left:200px; }
+
+
+.skill-bar {
+     margin: 5px;
+     padding: 12px;
+}
+
+
+.skill-bar.HTML p,
+.skill-bar.CSS p,
+.skill-bar.JavaScript p,
+.skill-bar.PHP p,
+.skill-bar.Photoshop p,
+.skill-bar.Illustrator p {
+           position: absolute;
+                top: 7px;
+               left: 5px;
+              color: #fff;
+}
+
+/* -----------------------------------
+ * SECTION - 共通
+ * -------------------------------- */
+
+.html-section,.css-section,.js-section,
+.php-section,.illustrator-section,.photoshop-section {
+          margin: 0 auto;
+           width: 70%;
+         padding: 15px 0;
+      }
+
+      .css-section,.js-section,.php-section,
+      .illustrator-section,.photoshop-section {
+         display: none;
+      }
+
+      .heading.html,.heading.css,.heading.JavaScript,
+      .heading.PHP,.heading.Photoshop,.heading.Illustrator {
+              margin: 40px 0 0;
+           font-size: 2.0rem;
+      letter-spacing: 3px;
+               color: rgba(0,0,0,0.5);
+      }
+
+/* -----------------------------------
+ * ILLUSTRATOR SECTION
+ * -------------------------------- */
+
+    .scroll.illustration img  {
+      left:0;
+      right:0;
+    }
+
+
+
+ } /* END of @media(min-width: 1024px){} */
